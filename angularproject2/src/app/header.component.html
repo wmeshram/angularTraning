@@ -1,18 +1,21 @@
 <nav class="navbar bg-dark navbar-expand-sm navbar-dark">
-    <a href="" class="navbar-brand"><img src="assets/images/angular-logo.png" style="width : 120px; height:30px;">
+    <a routerLink="/" class="navbar-brand"><img src="assets/images/favicon.ico" style="width : 50px; height:30px;">
         {{appTitle}}</a>
     <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-            <a class="nav-link" href="">Home</a>
+            <a class="nav-link" routerLink="/">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="">Sign In</a>
+            <a class="nav-link" routerLink="/signin">Sign In</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="">Quick Sign Up</a>
+            <a class="nav-link" routerLink="/signup">Quick Sign Up</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="">Shopping List</a>
+            <a class="nav-link" routerLink="/list">Shopping List</a>
+        </li>
+        <li class="nav-item">
+                <a class="nav-link" routerLink="/manage">Manage Products</a>
         </li>
     </ul>
     <span class="navbar-text">

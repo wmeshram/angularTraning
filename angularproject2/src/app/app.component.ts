@@ -7,7 +7,9 @@ import { Component } from "@angular/core";
     //Specify output for Component
     //Use BackTick character for multiline template
     template : `<!--<h3>My First Angular Component</h3> -->
-                <app-header></app-header>`
+                <app-header></app-header>
+                <router-outlet></router-outlet>
+                `
 
 })
 export class AppComponent {
